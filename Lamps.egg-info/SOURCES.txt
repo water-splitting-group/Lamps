@@ -1,0 +1,8 @@
+README.md
+setup.py
+Lamps.egg-info/PKG-INFO
+Lamps.egg-info/SOURCES.txt
+Lamps.egg-info/dependency_links.txt
+Lamps.egg-info/entry_points.txt
+Lamps.egg-info/requires.txt
+Lamps.egg-info/top_level.txt

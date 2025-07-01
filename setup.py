@@ -5,18 +5,18 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name='my_streamlit_app',
+    name='Lamps',
     version='0.1.0',
     packages=find_packages(),
     include_package_data=True,
     install_requires=requirements,
     entry_points={
         'console_scripts': [
-            'run-myapp = my_streamlit_app.app:main',
+            'run-myapp = Lamps.app:main',
         ],
     },
     author='Alexander Eith',
-    description='A small Streamlit app.',
+    description='Application to calculate the setting for a given power based on LED lamp data in the advanced irradiation setup V1.0',
     url='https://github.com/YOUR-USERNAME/YOUR-REPO',  # ← Replace this
     classifiers=[
         'Programming Language :: Python :: 3',
