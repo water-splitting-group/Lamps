@@ -32,6 +32,7 @@ Example:
 Each file should contain at two columns:
 - `power`: Measured power values
 - `setting`: Corresponding device settings
+- no other addings are allowed, only write the values in the columns below, do not leave any empty lines
 
 ## 🧾 Requirements
 
